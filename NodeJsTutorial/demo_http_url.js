@@ -13,3 +13,19 @@ http.createServer(function(req, res){
     res.write(req.url); 
     res.end();
 }).listen(8080);
+
+// Save the code above in a file called "demo_http_url.js" and initiate the file:
+
+// Initiate demo_http_url.js:  node demo_http_url.js 
+
+// If you have followed the same steps on your computer, you should see two different results when opening these two addresses:
+
+// http://localhost:8080/summer
+
+// Will produce this result:
+// /summer
+
+// http://localhost:8080/winter
+
+// Will produce this result:
+// /winter

@@ -11,4 +11,4 @@ http.createServer(function(req, res) {
 
 // Notice that we use ./ to locate the module, that means that the module is located in the same folder as the Node.js file.
 // Save the code above in a file called "demo_module.js", and initiate the file: node demo_module.js
-// f you have followed the same steps on your computer, you will see the same result as the example: http://localhost:8080
+// If you have followed the same steps on your computer, you will see the same result as the example: http://localhost:8080
